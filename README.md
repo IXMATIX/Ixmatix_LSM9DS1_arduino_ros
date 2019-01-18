@@ -12,16 +12,16 @@ Examples
   * Gets orientation quaternion from filter algorithms.
   * Sends sensor_msgs/Imu messages.
   * Broadcasts IMU transforms.
-  * [![LSM9DS1 ROS communication](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/tree/master/examples/imu_ros.jpeg)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
+  * [![LSM9DS1 ROS communication](https://raw.githubusercontent.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/master/extras/imu_ros.jpeg)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
 
 * **Ixmatix_visualise_orientation** - Use of OrientationVisualiser software for Processing to check correct orientation and configuration from sensor.
-  * [![LSM9DS1 ROS communication](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/tree/master/examples/imu_visualiser.jpeg)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
+  * [![LSM9DS1 ROS communication](https://raw.githubusercontent.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/master/extras/imu_visualiser.jpeg)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
 
 * **Ixmatix_calibrate_xl_gyro** - Example that allows you to get offsets for accelerometer and gyroscope.
-  * [![LSM9DS1 Accelerometer and gyroscope calibration](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/tree/master/examples/imu_xg_calibration.jpg)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
+  * [![LSM9DS1 Accelerometer and gyroscope calibration](https://raw.githubusercontent.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/master/extras/imu_xg_calibration.jpg)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
 
 * **Ixmatics_calibrate_magnetometer** - Magnetometer calibration with Hard-Iron and Soft-Iron corrections.
-  * [![LSM9DS1 Magnetometer calibration](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/tree/master/examples/imu_magnetometer_calibration.jpg)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
+  * [![LSM9DS1 Magnetometer calibration](https://raw.githubusercontent.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/master/extras/imu_magnetometer_calibration.jpg)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
 
   
 

@@ -100,21 +100,21 @@ void drawLSM9DS1()
   fill(255, 215, 0); // gold color
   noStroke();
 
-  //draw 14 contacts on Y- side
+  //draw 4 contacts on Y- side
   translate(15, 0, 30);
   for (int i=0; i<4; i++) {
     sphere(4.5); // draw gold contacts
     translate(-10, 0, 0); // set new position
   }
 
-  //draw 14 contacts on Y+ side
+  //draw 6 contacts on Y+ side
   translate(-0, 0, -60);
   for (int i=0; i<6; i++) {
     sphere(4.5); // draw gold contacts
     translate(10, 0, 0); // set position
   }
 
-  //draw gyroscope IC
+  //draw LSM9DS1
   stroke(128);
   translate(-35,-6,30);
   fill(24);

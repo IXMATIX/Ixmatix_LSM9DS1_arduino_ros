@@ -82,13 +82,6 @@ void setup() {
   nh.initNode();
   nh.advertise(imu_pub);
   tfbroadcaster.init(nh);
-
-  // Mahony variables
-  imu.Kp = (2.0f * 6.0f);
-  imu.Ki = (2.0f * 0.0f);
-  
-  // Madgwick variables
-  imu.measErrorDeg = 10.f;
   
   // Wait for sensor
   Wire.begin();
@@ -96,6 +89,14 @@ void setup() {
 
   // sensor is ready
   imu.setConfig();
+
+  // Mahony variables
+  imu.Kp = (2.0f * 6.0f);
+  imu.Ki = (2.0f * 0.0f);
+  
+  // Madgwick variables
+  imu.updateBeta(15.f);
+
   imu.initLSM9DS1();                // Setting sensor registers to get data
   imu.getRes(&aRes, &gRes, &mRes);  // Get resolution to convert raw data to real data
 }

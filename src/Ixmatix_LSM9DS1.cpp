@@ -181,6 +181,12 @@ void Ixmatix_LSM9DS1::readSensorData(uint8_t addrs, uint8_t subaddrs, int16_t * 
   values[2] = ((int16_t)buff[5] << 8) | buff[4] ; 
 }
 
+void Ixmatix_LSM9DS1::updateBeta(float measErrorDeg) {
+  this->measErrorDeg = measErrorDeg;
+  this->GyroMeasError = PI * (measErrorDeg / 180.0f);
+  this->GyroMeasDrift = PI * (0.0f  / 180.0f);
+  this->beta = sqrt(3.0f / 4.0f) * GyroMeasError;
+}
 
 void Ixmatix_LSM9DS1::getRes(float *accel, float *gyro, float *mag) {
   switch (fs_xl) {

@@ -14,6 +14,9 @@ Examples
   * Broadcasts IMU transforms.
   * [![LSM9DS1 ROS communication](https://raw.githubusercontent.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/master/extras/imu_ros.gif)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
 
+* **Ixmatix_LSM9DS1_ROS_no_nodehandler** - The same as Ixmatix_LSM9DS1_ROS but it doesn't need ROS nodehandler and reduces memory. Check [this imu serial port node](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1_arduino_serial_ros_node) to get this arduino example to work.
+  * Compatible with Arduino Uno
+  
 * **Ixmatix_visualise_orientation** - Use of OrientationVisualiser software for Processing to check correct orientation and configuration from sensor.
   * [![LSM9DS1 ROS communication](https://raw.githubusercontent.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1/master/extras/imu_visualiser.gif)](https://github.com/IxmatixRoboticsUniversity/Ixmatix_LSM9DS1)
 

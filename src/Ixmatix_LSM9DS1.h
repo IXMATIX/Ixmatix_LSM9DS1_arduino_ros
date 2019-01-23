@@ -245,6 +245,7 @@ class Ixmatix_LSM9DS1{
     bool isLSM9DS1Ready();
     void setRegister(uint8_t addrs, uint8_t subaddrs, uint8_t ctrl_reg, char ctrl_name[]);
     void readSensorData(uint8_t addrs, uint8_t subaddrs, int16_t * values);
+    void updateBeta(float measErrorDeg);
     void getRes(float *accel, float *gyro, float *mag);
     void readI2C(uint8_t address, uint8_t subAddress, uint8_t size_buff, uint8_t * buff);
     void readsI2C(uint8_t address, uint8_t subAddress, uint8_t size_buff, uint8_t * buff);
